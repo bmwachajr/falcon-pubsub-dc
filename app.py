@@ -16,7 +16,7 @@ def create():
     api.add_route('/publish', publish_resource)
     api.add_route('/publish/index', publish_resource, suffix='index')
 
-
+    api.add_route('/subscribe', subscribe_resource)
 
     return api
 
